@@ -4,3 +4,30 @@
 	padding: 10px;
 	text-align: center;
 }
+.navbar {
+	display: inline-block;
+	background-color: blue;
+	border-bottom: 10px white double;
+}
+
+.navbar ul {
+	float:left;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.navlink{
+	color: white; 
+	text-decoration: none;
+	padding: 5px 25px 5px;
+	margin: 0 0;
+	font-size: 1.5rem;
+	display: inline-block;
+}
+
+a:hover {
+	color: #87CEFA;
+	text-decoration:underline;
+}
+
+
