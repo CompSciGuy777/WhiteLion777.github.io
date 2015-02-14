@@ -1,12 +1,14 @@
-.wrapper {
+.main-header {
 	background-color: blue;
 	color:white;
 	padding: 10px;
 	text-align: center;
+	background-image: url(img/free_sky.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 .navbar {
 	display: inline-block;
-	background-color: blue;
 	border-bottom: 10px white double;
 }
 
@@ -21,7 +23,7 @@
 	text-decoration: none;
 	padding: 5px 25px 5px;
 	margin: 0 0;
-	font-size: 1.5rem;
+	font-size: 150%;
 	display: inline-block;
 }
 
@@ -30,4 +32,6 @@ a:hover {
 	text-decoration:underline;
 }
 
-
+img {
+	max-width: 100%;
+}
