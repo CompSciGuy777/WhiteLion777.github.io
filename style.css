@@ -1,9 +1,15 @@
-html {
+body {
 	background-color: lightblue;
 	color: white;
 }
+
+h2 {
+	font-size: 1.5rem;
+}
+
 .main-header {
 	background-color: blue;
+	font-size: 2rem;
 	color:white;
 	padding: 10px;
 	text-align: center;
