@@ -3,7 +3,7 @@ body {
 	color: white;
 }
 
-h2 {
+.recent-work-title {
 	font-size: 1.5rem;
 }
 
@@ -17,7 +17,7 @@ h2 {
 	background-size: 100% 100%;
 }
 
-.main-header h1 {
+.main-header-title {
 	font-size: 2rem;
 }
 
