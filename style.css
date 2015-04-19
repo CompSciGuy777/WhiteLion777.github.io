@@ -3,8 +3,9 @@ body {
 	color: white;
 }
 
-.recent-work-title {
+.pagetitle {
 	font-size: 1.5em;
+	text-align: center;
 }
 
 .main-header {
@@ -46,6 +47,82 @@ a:hover {
 	text-decoration:underline;
 }
 
+
+
 img {
 	max-width: 100%;
+}
+
+.gametitle{
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+}
+
+#my_canvas {
+	display: block;
+	height: 600px;
+	width: 800px;
+	position: relative;
+	border-radius: 25px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about {
+	margin-top: 0px
+	padding-top: 10px;
+
+}
+
+.aboutme {
+	display:inline-block;
+	padding: 50px;
+	margin: 40px;
+	height: auto;
+	width: auto;
+	border-radius: 25px;
+	background-color: white;
+	color: black;
+}
+
+.aboutme h2 {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+
+.aboutme p {
+	display: inline;
+	width:50%;
+	padding: 2%;
+	margin: 2%;
+	text-indent: 10px;
+	line-height: 1.5;
+	font-family: sans-serif;
+	text-align: inherit;
+	float: right;
+
+}
+
+
+.aboutmepic {
+	display: inline;
+	width: 30%;
+	margin: 4%;
+	height: auto;
+	border: black 5px solid;
+	border-radius: 25px;
+	float: left;
+}
+
+.clear:before,
+.clear:after {
+ 	content: " ";
+ 	display: table;
+}
+
+.clear:after {
+	clear: both;
 }
